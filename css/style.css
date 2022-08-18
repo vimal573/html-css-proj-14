@@ -27,6 +27,7 @@ body {
   margin: 0 auto;
 }
 
+/* Left side  */
 .left-side {
   flex: 0 0 35%;
   position: relative;
@@ -43,10 +44,12 @@ body {
   display: block;
 }
 
+/* Right side  */
 .right-side {
   flex: 0 0 65%;
 }
 
+/* Logo */
 .logo-box {
   position: absolute;
   top: 2.7rem;
@@ -58,10 +61,12 @@ body {
   height: 3.6rem;
 }
 
+/* Navbar */
 .navbar {
   margin-right: 6rem;
 }
 
+/* Navbar rule */
 .nav-list::before {
   content: " ";
   height: 1.35px;
@@ -95,6 +100,7 @@ body {
   color: #000000;
 }
 
+/* Heading */
 .heading {
   font-family: "Merriweather", sans-serif;
   position: relative;
@@ -107,6 +113,7 @@ body {
   color: #333333;
 }
 
+/* Heading transparent */
 .heading > h1 {
   color: transparent;
   -webkit-text-stroke-width: 1px;
@@ -114,6 +121,7 @@ body {
   margin-left: 3rem;
 }
 
+/* square */
 .heading > h1::after {
   content: " ";
   height: 1rem;
@@ -125,6 +133,7 @@ body {
   left: 25rem;
 }
 
+/* circe */
 .heading > h1::before {
   content: " ";
   height: 2rem;
@@ -156,6 +165,7 @@ body {
   margin-left: 1rem;
 }
 
+/* social */
 .social {
   display: flex;
   flex-direction: column;
@@ -165,6 +175,7 @@ body {
   right: 6rem;
 }
 
+/* Button */
 .btn {
   border: none;
   cursor: pointer;
@@ -177,6 +188,7 @@ body {
   right: 6rem;
 }
 
+/* right bottom */
 .bottom {
   position: relative;
   left: 9rem;
@@ -192,6 +204,7 @@ body {
   gap: 2.6rem;
 }
 
+/* vertical rule */
 .bottom-list::before {
   content: " ";
   height: 30rem;
@@ -209,6 +222,7 @@ body {
   position: relative;
 }
 
+/* bullets */
 .list-item::before {
   content: " ";
   height: 1.2rem;
@@ -251,6 +265,7 @@ body {
   position: relative;
 }
 
+/* Down arrow */
 .down-arrow {
   height: 10rem;
   width: 1.4px;
@@ -417,7 +432,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 5rem;
     position: relative;
     top: 3rem;
     right: 0;
@@ -429,6 +444,7 @@ body {
     right: 0;
     left: 50%;
     transform: translateX(-50%);
+    padding: 1.6rem 6rem;
   }
 
   .bottom {
