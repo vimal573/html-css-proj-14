@@ -9,18 +9,19 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body {
   background-color: #f5f2f0;
   font-family: "Poppins", sans-serif;
   line-height: 1;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .container {
   height: 100vh;
+
   display: flex;
   max-width: 140rem;
   margin: 0 auto;
@@ -367,7 +368,7 @@ body {
   }
 
   .logo {
-    height: 2.4rem;
+    height: 2.8rem;
   }
 
   .navbar {
